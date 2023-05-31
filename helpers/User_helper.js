@@ -1,3 +1,4 @@
+
 import { randFullName, randEmail } from "@ngneat/falso";
 export const createRandomUser = () => {
     const data = {
@@ -5,6 +6,8 @@ export const createRandomUser = () => {
         name: randFullName({gender: 'female'}),
         gender: 'male',
         status: 'active'
+
+
     };
     return data;
 }
